@@ -1,0 +1,93 @@
+#navbar a {
+  color: #A9A9A9;
+  text-decoration: none;
+  padding-right: 60px;
+}
+
+#navbar ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #f0f8ff;
+  border-top: 2px #f4f4f4 solid;
+  border-bottom: 2px #f4f4f4 solid;
+  margin-bottom: 1px;
+  margin-left: 13px;
+  border-radius: 15px;
+  padding: 11px;
+}
+
+#navbar ul li a {
+  display: block;
+}
+
+#navbar ul li ul li {
+  display: none;
+}
+
+#navbar ul li:hover ul li {
+  display: block;
+}
+
+#navbar ul li ul li:hover {
+  opacity: .3;
+}
+
+/* Hover Picture */
+#navbar li.home-icon:hover {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#navbar li.home-icon > a:hover {
+  opacity: 0;
+}
+
+#navbar li.rout-icon:hover {
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#navbar li.rout-icon > a:hover {
+  opacity: 0;
+}
+
+#navbar li.nutr-icon:hover {
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#navbar li.nutr-icon > a:hover {
+  opacity: 0;
+}
+
+#navbar li.abou-icon:hover {
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#navbar li.abou-icon > a:hover {
+  opacity: 0;
+}
+
+#navbar li.cont-icon:hover {
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#navbar li.cont-icon > a:hover {
+  opacity: 0;
+}
